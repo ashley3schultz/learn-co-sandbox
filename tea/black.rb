@@ -1,6 +1,4 @@
-reqire_all 'tea'
-
-class BlackTea < Tea
+class Black
   attr_reader :name
   attr_accessor :country, :province, :info, :steep_temp
 

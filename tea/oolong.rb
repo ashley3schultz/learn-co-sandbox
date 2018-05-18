@@ -1,3 +1,3 @@
-class OolonTea < Tea
+class Oolon
   
 end 

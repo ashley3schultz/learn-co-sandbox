@@ -1,3 +1,3 @@
-class GreenTea < Tea
+class Green
   
 end 

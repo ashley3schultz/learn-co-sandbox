@@ -1,3 +1,3 @@
-class PuerhTea < Tea
+class Puerh
   
 end 
