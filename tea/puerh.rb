@@ -1,0 +1,3 @@
+class PuerhTea < Tea
+  
+end 
