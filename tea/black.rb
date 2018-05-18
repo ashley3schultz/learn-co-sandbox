@@ -4,13 +4,20 @@ class Black
 
 @@all = []
   
-  def initialize(name, steep_temp = nil)
+  def initialize(name, steep_temp)
     @name = name 
-    @steep_temp = steep_temp if steep_temp != nil
-    @steep_temp = self.default_temp if steep_temp == nil
+    if steep_temp != nil
+      @steep_temp = steep_temp 
+    else 
+      @steep_temp = 210
+    end
     @@all << self
-    Tea.new(self)
   end
+  
+  def self.all 
+    @@all
+  end 
+end
   
   def default_temp
     a = self
